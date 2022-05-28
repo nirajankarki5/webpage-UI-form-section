@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form UI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Quintessential&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h1 class="logo-text">finangel</h1>
+        <div class="right-nav">
+          <ul class="main-nav">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Stores</a></li>
+            <li><a href="#">Finangel Beta</a></li>
+          </ul>
+          <a href="#" class="login-button">Login</a>
+        </div>
+      </nav>
+
+      <section class="partner-form">
+        <h1 class="heading">Partner application</h1>
+        <div class="tabs">
+          <div>
+            <span class="number-1">1</span>
+            <span class="text-1">General</span>
+          </div>
+          <div>
+            <span class="number">2</span>
+            <span class="text">Details</span>
+          </div>
+          <div>
+            <span class="number">3</span>
+            <span class="text">Contacts</span>
+          </div>
+        </div>
+        <h3>Become a partner</h3>
+        <p>Tell us more about your business</p>
+
+        <form action="#">
+          <input type="text" placeholder="Business name*" />
+          <input type="text" placeholder="Website*" />
+          <select name="shops" id="dropdown">
+            <option value="select">Amount of landbase shops*</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <select name="amount" id="dropdown">
+            <option value="1">$250 - $1000</option>
+            <option value="2">$1000 - $5000</option>
+            <option value="3">$5000+</option>
+          </select>
+          <select name="categories" id="dropdown">
+            <option value="select">Product categories*</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+
+          <button class="button">Next step</button>
+        </form>
+      </section>
+
+      <section class="faq">
+        <h2>F.A.Q</h2>
+        <ul class="faq-list">
+          <li>
+            <div class="main-container">
+              <div class="sub-container">
+                How can my shop be connected to the Finangel?
+              </div>
+              <span>+</span>
+            </div>
+          </li>
+          <li>
+            <div class="main-container">
+              <div class="sub-container">
+                How long will it take to process my application?
+              </div>
+              <span>+</span>
+            </div>
+          </li>
+          <li>
+            <div class="main-container">
+              <div class="sub-container">
+                What kind of business does Finangel work with?
+              </div>
+              <span>+</span>
+            </div>
+          </li>
+          <li>
+            <div class="main-container">
+              <div class="sub-container">Why do you need my EIN/ tax ID?</div>
+              <span>+</span>
+            </div>
+          </li>
+          <li>
+            <div class="main-container">
+              <div class="sub-container">What fees does Finangel charge?</div>
+              <span>+</span>
+            </div>
+          </li>
+          <li>
+            <div class="main-container">
+              <div class="sub-container">
+                Should I pay a fee if a customer returns his/her products?
+              </div>
+              <span>+</span>
+            </div>
+          </li>
+          <li>
+            <div class="main-container">
+              <div class="sub-container">How do I know how much to pay?</div>
+              <span>+</span>
+            </div>
+          </li>
+          <li>
+            <div class="main-container">
+              <div class="sub-container">
+                How can I double check the reports?
+              </div>
+              <span>+</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="copyright">
+        <h1 class="logo-text">finangel</h1>
+        <p class="services">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          laboriosam laborum facere earum optio dolorum quasi quis a est illum
+          debitis, ab recusandae sunt rem veritatis reiciendis eaque! Numquam,
+          modi?
+        </p>
+        <p class="services">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          reprehenderit perferendis, culpa eum quasi.
+        </p>
+        <div class="social">
+          <p class="social-btn fb">
+            <i class="ph-facebook-logo"></i>
+          </p>
+          <p class="social-btn insta"><i class="ph-instagram-logo"></i></p>
+          <p class="social-btn twitter"><i class="ph-twitter-logo"></i></p>
+          <p class="social-btn youtube"><i class="ph-youtube-logo"></i></p>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="sec-nav">
+          <div class="links">
+            <p><a href="#">About us</a></p>
+            <p><a href="#">Mission</a></p>
+            <p><a href="#">Stores</a></p>
+            <p><a href="#">Partners</a></p>
+          </div>
+          <div class="links">
+            <p><a href="#">FAQ</a></p>
+            <p><a href="#">Terms & Conditions</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Cookie Policy</a></p>
+          </div>
+        </div>
+
+        <a href="#" class="download-button"
+          ><img src="app-store.png" alt="download on app store" height="50"
+        /></a>
+        <a href="#" class="download-button"
+          ><img src="google-play.jpg" alt="download on google pay" height="50"
+        /></a>
+      </section>
+    </div>
+  </body>
+</html>
